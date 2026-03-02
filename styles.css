@@ -46,7 +46,6 @@ button {
     margin: 20px auto;
     width: 300px;
     border-radius: 8px;
-    
 }
 
 .border-grid {
@@ -57,7 +56,7 @@ button {
 }
 
 .border-grid div {
-    background: white;
+    background: rgb(101, 181, 184);
     padding: 10px;
     border-radius: 6px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
