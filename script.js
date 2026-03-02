@@ -73,7 +73,6 @@ searchBtn.addEventListener('click', () => {
     }
 });
 
-// Press Enter
 countryInput.addEventListener('keypress', (e) => {
     if (e.key === 'Enter') {
         const country = countryInput.value.trim();
