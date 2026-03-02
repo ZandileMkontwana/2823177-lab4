@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:lightslategrey;
+    text-align: center;
+}
+
+header {
+    background-color: #375c81;
+    color: white;
+    padding: 1rem;
+}
+
+
+.search-container {
+    margin: 20px;
+}
+
+input {
+    padding: 8px;
+    width: 250px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.spinner {
+    margin: 10px auto;
+    width: 20px;
+    height: 20px;
+    border: 5px solid #bdd5df;
+    border-top: 5px solid #206479;
+    border-radius: 50%;
+    animation: spin 1s linear infinite; /* REQUIRED */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.country-card {
+    background: rgb(170, 205, 207);
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 8px;
+    
+}
+
+.border-grid {
+    display: grid; /* REQUIRED */
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+    margin: 20px;
+}
+
+.border-grid div {
+    background: white;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.hidden {
+    display: none;
+}
